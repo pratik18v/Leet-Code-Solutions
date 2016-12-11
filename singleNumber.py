@@ -22,8 +22,7 @@ class Solution(object):
         """
         :type nums: List[int]
         :rtype: int
-        """
-        
+        """     
         return reduce(operator.xor, nums)
         
 if __name__ == '__main__':
